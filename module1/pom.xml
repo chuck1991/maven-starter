@@ -9,7 +9,7 @@
   <url>http://www.example.com</url>
 
   <parent>
-    <version>1.4</version>
+    <version>1.5-SNAPSHOT</version>
     <artifactId>my-app-parent</artifactId>
     <groupId>com.mycompany.app</groupId>
   </parent>
