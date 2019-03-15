@@ -23,6 +23,13 @@
     <name>Snapshot Repo</name>
     <url>http://localhost:8082/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
+
+  <repository>
+    <id>kai-release-repo-id</id>
+    <name>Release Repo</name>
+    <url>http://localhost:8082/nexus/content/repositories/releases</url>
+  </repository>
+
 </distributionManagement>
 
   <scm>
