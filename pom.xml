@@ -18,12 +18,13 @@
   </properties>
 
 <distributionManagement>
-    <repository>
-      <id>kai-snapshot-repo-id</id>
-      <name>Snapshot Repo</name>
-      <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
-    </repository>
-  </distributionManagement>
+  <snapshotRepository>
+    <id>kai-snapshot-repo-id</id>
+    <name>Snapshot Repo</name>
+    <url>http://localhost:8082/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
+
   <scm>
     <connection>scm:git:git@github.com:chuck1991/maven-starter.git</connection>
     <developerConnection>scm:git:git@github.com:chuck1991/maven-starter.git</developerConnection>
