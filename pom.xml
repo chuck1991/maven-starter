@@ -5,7 +5,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -36,7 +36,7 @@
     <connection>scm:git:git@github.com:chuck1991/maven-starter.git</connection>
     <developerConnection>scm:git:git@github.com:chuck1991/maven-starter.git</developerConnection>
     <url>https://github.com/chuck1991/maven-starter</url>
-    <tag>HEAD</tag>
+    <tag>my-app-1.2</tag>
   </scm>
   <dependencies>
     <dependency>
